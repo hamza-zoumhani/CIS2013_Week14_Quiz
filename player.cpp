@@ -12,15 +12,17 @@ class player{
 		
 	public:
 		
-		player{
-			set_name("Unknown");
-			set_Ncards("0");
-			set_Cardcount("0");
+		player(string n, int Nc, int cc){
+			set_name(n);
+			set_Ncards(Nc);
+			set_Cardcount(cc);
 		}
-		player(string n, int Nc, int c){
-			set_name("Unknown");
-			set_Ncards("0");
-			set_Cardcount("0");
+		
+		string get_name(){ return name;};
+		int get_Ncards(){ return Ncards};
+		int get_Cardcount(){ return Cardcount};
+		
+		void 
 		
 			
 		

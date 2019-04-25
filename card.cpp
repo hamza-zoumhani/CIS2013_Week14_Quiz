@@ -1,3 +1,6 @@
+#ifndef PLAYER_CPP
+#define PLAYER_CPP
+
 #include <iostream>
 #include <string>
 
@@ -27,3 +30,4 @@ class card{
 		
 		
 };
+#endif

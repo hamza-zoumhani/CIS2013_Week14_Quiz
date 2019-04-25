@@ -1,5 +1,5 @@
-#ifndef CARD_CPP
-#define CARD_CPP
+#ifndef PERSON_CPP
+#define PERSON_CPP
 
 #include <string>
 #include "card.cpp"
@@ -30,6 +30,7 @@ class player{
 		string get_name(){ return name;}
 		
 };
+
 #endif			
 		
 		

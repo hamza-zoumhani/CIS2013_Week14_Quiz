@@ -1,29 +1,28 @@
-#include <iostream>
 #include <string>
+#include "card.cpp"
 
 using namespace std;
 
 class player{
 	private:
 		
-		int Ncards[12];
 		string name;
-		int Cardcount;
+		bool is_hitting;
+		card hand[9];
 		
 	public:
 		
-		player(string n, int Nc, int cc){
-			set_name(n);
-			set_Ncards(Nc);
-			set_Cardcount(cc);
+		//Constructors
+		
+		player(){
+			set_name("Unknown");
+			set_hitting(true);
 		}
 		
-		string get_name(){ return name;};
-		int get_Ncards(){ return Ncards};
-		int get_Cardcount(){ return Cardcount};
+		void set_name(string n){name =n;}
+		void set_hitting(bool h){is_hitting=h;}
 		
-		void 
-		
+};
 			
 		
 		

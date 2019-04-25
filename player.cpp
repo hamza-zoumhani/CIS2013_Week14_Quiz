@@ -19,8 +19,12 @@ class player{
 			set_hitting(true);
 		}
 		
+		//Setters
 		void set_name(string n){name =n;}
 		void set_hitting(bool h){is_hitting=h;}
+		
+		//Getters
+		string get_name(){ return name;}
 		
 };
 			
